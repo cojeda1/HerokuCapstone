@@ -1,0 +1,125 @@
+.space {
+  margin: 0 200px;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+.navMargin {
+  margin: 0 196px;
+  padding: 0;
+  margin-right: 216px;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+.container {
+  width: 100%;
+}
+
+ .border-table {
+   border: 1px solid black;
+ }
+
+ .field {
+   padding: 10px 0;
+   font-size: 20px;
+ }
+
+ h1, h3 {
+   border-bottom: 1px solid grey;
+ }
+
+ .list-table {
+   padding: 50px 0;
+ }
+
+ .right {
+   float: right;
+ }
+
+ h1 {
+   font-size: 50px;
+   font-family: Arial, sans-serif;
+   font-weight: bold;
+ }
+
+ div {
+   color: black;
+ }
+
+ h3 {
+   float: none;
+   margin-right: 0;
+ }
+
+ .md-button.md-raised.confirm {
+   background-color: blue;
+   color: white;
+ }
+
+ .md-button.md-raised.confirm:hover {
+   background-color: darkblue;
+   color: white;
+ }
+
+ .md-button.md-raised.confirm:focus {
+   background-color: darkblue;
+   color: white;
+ }
+
+.md-button.md-raised.cancel {
+  background-color: red;
+  color: white;
+}
+
+.md-button.md-raised.cancel:hover {
+  background-color: darkred;
+  color: white;
+}
+
+.md-button.md-raised.cancel:focus {
+  background-color: darkred;
+  color: white;
+}
+
+input.inpt:hover {
+  border-color: blue;
+  box-shadow: 0 0 10px blue;
+}
+
+input.inpt:focus {
+  border-color: darkblue;
+  box-shadow: 0 0 10px darkblue;
+}
+
+.navbar-default {
+  background-color: black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.navStyle {
+  background-color: black;
+}
+
+ul.nav.navbar-nav a{
+  color: white;
+}
+
+ul.nav.navbar-nav li  {
+  cursor: pointer;
+}
+
+.glyphicon-envelope {
+  color: inherit;
+  font-size: 20px;
+}
+
+.glyphicon-envelope:hover {
+  color: black;
+}

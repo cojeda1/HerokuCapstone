@@ -1,0 +1,264 @@
+.email{
+  float: right;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+h1, h3 {
+  border-bottom: 1px solid black;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  padding-bottom: 5px;
+  font-size: 35px;
+}
+
+.field {
+  padding: 5px 0;
+}
+
+.addInv{
+  border: 1px solid black;
+}
+
+.container {
+  width: 100%;
+}
+
+.navMargin{
+  margin: 0 196px;
+  padding: 0;
+}
+
+.main{
+  margin: 0 200px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+label {
+  font-size: 20px;
+}
+
+h1, h3, label {
+  color: black;
+}
+
+
+input.inpt:hover {
+  border-color: blue;
+  box-shadow: 0 0 10px blue;
+}
+
+input.inpt:focus {
+  border-color: darkblue;
+  box-shadow: 0 0 10px darkblue;
+}
+
+md-dialog{
+  width: 500px;
+  height: 500px;
+  align-self: center;
+}
+
+.md-button.md-raised.create {
+  background-color: blue;
+  color: white;
+  border-radius: 0;
+  width: 175px;
+  height: 40px;
+}
+
+.md-button.md-raised.create:hover{
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.create:focus {
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.cancel {
+  background-color: red;
+  color: white;
+  border-radius: 0;
+  width: 175px;
+  height: 40px;
+}
+
+.md-button.md-raised.cancel:hover{
+  background-color: darkred;
+  color: white;
+}
+
+.md-button.md-raised.cancel:focus {
+  background-color: darkred;
+  color: white;
+}
+
+.md-button.md-raised.add {
+  background-color: blue;
+  color: white;
+  border-radius: 0;
+  width: 300px;
+  height: 40px
+}
+
+.md-button.md-raised.add:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.add:focus {
+  background-color: darkblue;
+  color: white;
+}
+
+.buttonpad {
+  padding-bottom: 50px;
+}
+
+.md-button.md-raised.cancel1 {
+  background-color: red;
+  color: white;
+  border-radius: 0;
+  float: left;
+}
+
+.md-button.md-raised.cancel1:hover{
+  background-color: darkred;
+  color: white;
+}
+
+.md-button.md-raised.cancel1:focus {
+  background-color: darkred;
+  color: white;
+}
+
+.md-button.md-raised.create1 {
+  background-color: blue;
+  color: white;
+  border-radius: 0;
+  float: right;
+}
+
+.md-button.md-raised.create1:hover{
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.create1:focus {
+  background-color: darkblue;
+  color: white;
+}
+
+table{
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+.md-toolbar-tools {
+  background-color: blue;
+}
+
+.cancelpad {
+  padding-top: 20px;
+}
+
+.navbar-default {
+  background-color: black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.navStyle {
+  background-color: black;
+}
+
+ul.nav.navbar-nav a{
+  color: white;
+  background-color: black;
+}
+
+ul.nav.navbar-nav li  {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+ul.nav.navbar-nav button{
+  color: white;
+  background-color: black;
+}
+
+ul.nav.navbar-nav button:hover{
+  color: black;
+  background-color: white;
+}
+
+div.dropdown-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    font-size: inherit;
+    background-color: inherit;
+    color: solid black;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: gray;
+}

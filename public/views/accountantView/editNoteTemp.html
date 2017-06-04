@@ -1,0 +1,18 @@
+<div ng-app = "HomeApp" ng-controller="dialogCntrl">
+  <md-dialog aria-label="Enter new comment">
+    <md-content class="md-padding">
+      <form name="userForm">
+        <div layout layout-sm="column">
+          <md-input-container flex>
+             <label>Edit Note</label>
+             <textarea rows="4" cols="50" ng-model = "newComment">
+               At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+             </textarea>
+           </md-input-container>
+         </div>
+          <div class="md-actions" layout="row">
+            <span flex></span> <md-button ng-click="cancel()"> Cancel </md-button>
+            <md-button ng-click="answer(newComment)" class="md-primary"> Submit </md-button>
+          </div>
+  </md-dialog>
+</div>

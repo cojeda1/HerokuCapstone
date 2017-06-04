@@ -1,0 +1,107 @@
+.container {
+  width: 100%;
+}
+
+.well {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0;
+  border: 2px solid darkgrey;
+}
+
+ h3 {
+   font-family: Arial, sans-serif;
+   font-weight: bold;
+ }
+
+ #password:hover {
+   border-color: blue;
+   box-shadow: 0 0 10px blue;
+ }
+
+ #password:focus {
+   border-color: darkblue;
+   box-shadow: 0 0 10px darkblue;
+ }
+
+ #email:hover {
+   border-color: blue;
+   box-shadow: 0 0 10px blue;
+ }
+
+ #email:focus {
+   border-color: darkblue;
+   box-shadow: 0 0 10px darkblue;
+ }
+
+ .dropdown {
+     position: relative;
+     display: inline-block;
+     width: 100%;
+ }
+
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 200px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+ }
+
+ .dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     font-size: 15px;
+ }
+
+ .dropdown-content a:hover {
+   background-color: #f1f1f1
+ }
+
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+
+.md-button.md-raised.loginBtn {
+  background-color: blue;
+  color: white;
+  width: 200px;
+  padding: 0;
+}
+
+.md-button.md-raised.loginBtn:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.loginBtn:focus {
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.submitBtn {
+  background-color: blue;
+  color: white;
+  width: 200px;
+  padding: 0;
+}
+
+.md-button.md-raised.submitBtn:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.submitBtn:focus {
+  background-color: darkblue;
+  color: white;
+}
+
+#loginRow {
+  padding: 0;
+  margin: 0;
+}

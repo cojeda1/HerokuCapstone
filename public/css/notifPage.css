@@ -1,0 +1,114 @@
+.space {
+  margin: 0 200px;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+.navMargin {
+  margin: 0 196px;
+  padding: 0;
+  margin-right: 216px;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.container{
+  width: 100%;
+  padding: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar-default {
+  background-color: black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.navStyle {
+  background-color: black;
+}
+
+ul.nav.navbar-nav a{
+  color: white;
+}
+
+ul.nav.navbar-nav li  {
+  cursor: pointer;
+}
+
+.glyphicon-envelope {
+  color: inherit;
+  font-size: 20px;
+}
+
+.glyphicon-envelope:hover {
+  color: black;
+}
+
+.border-table {
+  border: 1px solid lightgrey;
+}
+
+label {
+  width: 100%;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.border-table:hover {
+  background-color: lightgrey;
+}
+
+.user {
+  padding: 20px 0;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  float: none;
+}

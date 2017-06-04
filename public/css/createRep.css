@@ -1,0 +1,175 @@
+.main {
+  margin: 0 200px;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+.navMargin {
+  margin: 0 196px;
+  padding: 0;
+  margin-right: 216px;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+.needBorder {
+  border: 2px solid black;
+}
+
+.container {
+  width: 100%;
+}
+
+.field {
+  padding: 10px 0;
+}
+
+h5 {
+  border-bottom: 1px solid grey;
+}
+
+.select, .dselect {
+  margin: 20px 50
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+label{
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+.smallHeader{
+  font-size: 35px;
+}
+
+input.inpt:hover{
+  border-color: blue;
+  box-shadow: 0 0 20px blue;
+}
+
+input.inpt:focus{
+  border-color: darkblue;
+  box-shadow: 0 0 10px darkblue;
+}
+
+h3{
+  float: none;
+  margin-right: 0;
+  text-align: center;
+}
+
+.md-button.md-raised.right {
+  background-color: blue;
+  color: white;
+}
+
+.md-button.md-raised.right:hover{
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.right:focus{
+  background-color: darkblue;
+  color: white;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 35px;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  color: black;
+  margin: 0;
+}
+
+th, td {
+  text-align: center;
+}
+
+.md-button.md-raised.submitbutton{
+  width: 250px;
+  height: 40px;
+}
+
+/*md-dialog {
+  width: 750px;
+  height: 750px;
+}*/
+
+.md-button.md-raised.cancel {
+  background-color: red;
+  color: white;
+}
+
+.md-button.md-raised.cancel:hover {
+  background-color: darkred;
+  color: white;
+}
+
+.md-button.md-raised.cancel:focus {
+  background-color: darkred;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6, label, p {
+  color: black;
+}
+
+.navbar-default {
+  background-color: black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.navStyle {
+  background-color: black;
+}
+
+ul.nav.navbar-nav a{
+  color: white;
+}
+
+ul.nav.navbar-nav li  {
+  cursor: pointer;
+}
+
+.glyphicon-envelope {
+  color: inherit;
+  font-size: 20px;
+}
+
+.glyphicon-envelope:hover {
+  color: black;
+}
+
+.separate {
+  border-top: 1px solid black;
+  padding: 0;
+}
+
+.needBorder {
+  padding: 0;
+}
+
+.stretch {
+  width: 100;
+}

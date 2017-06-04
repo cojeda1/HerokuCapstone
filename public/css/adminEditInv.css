@@ -1,0 +1,157 @@
+.space {
+  margin: 0 200px;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+.navMargin {
+  margin: 0 196px;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, label {
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+h1{
+  font-size: 50px;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+h2, h3 {
+  font-size: 35px;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+h4, h5, h6, label {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+input.inpt:hover {
+  border-color: blue;
+  box-shadow: 0 0 10px blue;
+}
+
+input.inpt:focus {
+  border-color: darkblue;
+  box-shadow: 0 0 10px darkblue;
+}
+
+.container {
+  width: 100%;
+}
+
+.buttonfloat {
+  float: right;
+}
+
+.md-button.md-raised.edit{
+  background-color: blue;
+  color: white;
+}
+
+.md-button.md-raised.edit:hover{
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.edit:focus{
+  background-color: darkblue;
+  color: white;
+}
+
+input.inpt {
+  padding: 0;
+}
+
+.navbar-default {
+  background-color: black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.navStyle {
+  background-color: black;
+}
+
+ul.nav.navbar-nav a{
+  color: white;
+  background-color: black;
+}
+
+ul.nav.navbar-nav li  {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+ul.nav.navbar-nav button{
+  color: white;
+  background-color: black;
+}
+
+ul.nav.navbar-nav button:hover{
+  color: black;
+  background-color: white;
+}
+
+div.dropdown-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    font-size: inherit;
+    background-color: inherit;
+    color: solid black;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: gray;
+}

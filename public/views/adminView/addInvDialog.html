@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="..\..\css\adminAddAccountant.css">
+<div ng-app = "myApp" ng-controller="createAccCntrl">
+  <md-dialog aria-label="Add Accountant" width="500px" height="500px">
+    <md-toolbar>
+          <div class="md-toolbar-tools">
+            <h2 align="center">Add an Investigator</h2>
+            <span flex></span>
+            <md-button class="md-icon-button" ng-click="cancel()">
+              <md-icon class="glyphicon glyphicon-remove-sign" aria-label="Close dialog"></md-icon>
+            </md-button>
+          </div>
+        </md-toolbar>
+        <input type = "text" ng-model="search" class = "form-control inpt" placeholder="Search">
+    <md-content class="md-padding">
+          <table>
+            <tr>
+              <th>
+                 Name
+              </th>
+              <th>
+              </th>
+            </tr>
+            <tr dir-paginate ="researcher in reaserchers | filter:search |itemsPerPage:3" >
+               <td>
+                 {{researcher.researcher_first_name}} {{researcher.researcher_last_name}}
+              </td>
+              <td>
+                <md-button class="md-raised create1" ng-click = "answer(researcher)"> Add </md-button>
+              </td>
+            </tr>
+          </table>
+          <div class="md-actions cancelpad" layout="row">
+            <md-button class="md-raised cancel1" ng-click="cancel()"> Cancel </md-button>
+          </div>
+          <div align="center">
+            <div class="pagination">
+               <dir-pagination-controls
+                 max-size="100"
+                 direction-links = "true"
+                 boundary-links = "true"
+               >
+               </dir-pagination-controls>
+           </div>
+         </div>
+       </md-content>
+  </md-dialog>
+</div>

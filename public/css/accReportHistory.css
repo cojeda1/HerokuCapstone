@@ -1,0 +1,98 @@
+.email{
+  float:right;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+.search-bar{
+  width: 100%;
+  padding: 20px;
+}
+
+.navMargin {
+  margin: 0 196px;
+  padding: 0;
+  margin-right: 216px;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+.space{
+    margin: 0 200px;
+}
+
+th {
+  text-align: center;
+}
+
+td{
+  text-align: center;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+h4, h5, h6, label, p {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h3{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.search:hover {
+  border-color: blue;
+  box-shadow: 0 0 10px lightblue;
+}
+
+.search:focus {
+  border-color: darkblue;
+  box-shadow: 0 0 10px darkblue;
+}
+
+.glyphicon-open-file {
+  font-size: 35px;
+  color: black;
+}
+
+.glyphicon-open-file:hover {
+  color: darkblue;
+}
+
+.navbar-default {
+  background-color: black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.navStyle {
+  background-color: black;
+}
+
+ul.nav.navbar-nav a{
+  color: white;
+}
+
+ul.nav.navbar-nav li  {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+}

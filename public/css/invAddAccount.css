@@ -1,0 +1,130 @@
+.space {
+  margin: 0 200px;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+.navMargin {
+  margin: 0 196px;
+  padding: 0;
+  margin-right: 216px;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+input.inpt:hover {
+  border-color: blue;
+  box-shadow: 0 0 10px blue;
+}
+
+input.inpt:focus {
+  border-color: darkblue;
+  box-shadow: 0 0 10px darkblue;
+}
+
+.container {
+  width: 100%;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.field {
+  padding: 10px 0;
+}
+
+.list-table{
+  align-items: center;
+  border: 1px solid darkgrey;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+
+h3{
+  float: left;
+  font-family: Arial, sans-serif;
+  margin-right: 0;
+}
+
+.head{
+  text-align: center;
+  float: none;
+  border-bottom: 2px solid black;
+  margin-right: 0;
+}
+
+.line {
+  border-bottom: 1px solid darkgrey;
+}
+
+.md-button.md-raised.right{
+  background-color: blue;
+  color: white;
+  width: 100px;
+}
+
+.md-button.md-raised.create {
+  background-color: blue;
+  color: white;
+  width: 275;
+  height: 40;
+}
+ .md-button.md-raised.right:hover {
+   background-color: darkblue;
+   color: white;
+ }
+
+ .md-button.md-raised.create:hover{
+   background-color: darkblue;
+   color: white;
+ }
+
+ .md-button.md-raised.right:focus{
+   background-color: darkblue;
+   color: white;
+ }
+
+ .md-button.md-raised.create:focus{
+   background-color: darkblue;
+   color: white;
+ }
+
+ .navbar-default {
+   background-color: black;
+   font-weight: bold;
+   border-color: black;
+ }
+
+ .navStyle {
+   background-color: black;
+ }
+
+ ul.nav.navbar-nav a{
+   color: white;
+ }
+
+ ul.nav.navbar-nav li  {
+   cursor: pointer;
+ }
+
+ .glyphicon-envelope {
+   color: inherit;
+   font-size: 20px;
+ }
+
+ .glyphicon-envelope:hover {
+   color: black;
+ }

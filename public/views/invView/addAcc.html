@@ -1,0 +1,151 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>View Report</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="..\..\node_modules\angular-material\angular-material.min.css">
+  <link rel="stylesheet" href="..\..\node_modules\bootstrap\dist\css\bootstrap.min.css">
+  <link rel="stylesheet" href="..\css\invAddAccount.css">
+</head>
+<body ng-app = 'homeApp' ng-controller="createAccount">
+
+  <div class="navStyle">
+    <nav class = "navbar navbar-default">
+      <div class = "container-fluid navMargin">
+        <ul class="nav navbar-nav">
+          <li><a ng-click = "viewHome()">HOME</a></li>
+          <li><a ng-click = "createRep()">CREATE REPORT</a></li>
+          <li><a ng-click = "viewTransactions()">TRANSACTIONS</a></li>
+          <li><a class="white" ng-click = "viewCo()">CO-TRANSACTIONS</a></li>
+          <li><a ng-click = "viewProfile()">PROFILE</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a ng-click="notifications()" ><span class="glyphicon glyphicon-envelope"></span></a></li>
+        </ul>
+     </div>
+    </nav>
+  </div>
+
+  <div class = "space" >
+    <md-content>
+
+      <div align="center">
+        <h1>Add New Account</h1>
+      </div>
+      <form name="validate" ng-submit="validate.$valid && submit($event)">
+      <div class="container">
+        <div class="field">
+            <label>Nickname: </label>
+            <md-input-container class="md-block">
+              <input class="inpt" type="text" required id="nickname"></input>
+            </md-input-container>
+        </div>
+        <div class="field">
+            <label>UFIS: (##### . ### . ### . #### . ### . ########### . ##) </label>
+            <div class="row">
+              <div class = "col-sm-2">
+                <md-input-container class="md-block">
+                  <input class="inpt" min="0" ng-model = "ufis1"  md-maxlength="5" required id="ufis1"></input>
+                </md-input-container>
+
+              </div>
+              <div class = "col-sm-1">
+                <md-input-container class="md-block">
+                  <input class="inpt" ng-model = "ufis2" md-minlength ="3"  min = "999" md-maxlength= "3" required id="ufis2"></input>
+                </md-input-container>
+
+              </div>
+              <div class = "col-sm-1">
+                <md-input-container class="md-block">
+                  <input class="inpt" ng-model = "ufis3" md-minlength ="3"  md-maxlength= "3"  required id="ufis3"></input>
+                </md-input-container>
+
+              </div>
+              <div class = "col-sm-2">
+                <md-input-container class="md-block">
+                  <input class="inpt" ng-model = "ufis4" md-minlength ="4" md-maxlength= "4"  required id="ufis4"></input>
+                </md-input-container>
+
+              </div>
+              <div class = "col-sm-1">
+                <md-input-container class="md-block">
+                  <input class="inpt" ng-model = "ufis5" md-minlength ="3" md-maxlength= "3" required id="ufis5"></input>
+                </md-input-container>
+
+              </div>
+
+              <div class = "col-sm-2">
+                <md-input-container class="md-block">
+                  <input class="inpt" ng-model = "ufis6" md-minlength ="11" md-maxlength= "11" required id="ufis6"></input>
+                </md-input-container>
+
+              </div>
+              <div class = "col-sm-1">
+                <md-input-container class="md-block">
+                  <input class="inpt" ng-model = "ufis7" md-minlength ="2" md-maxlength= "2"  oninput="validity.valid;" required id="ufis7"></input>
+                </md-input-container>
+              </div>
+          </div>
+        </div>
+        <div class="field">
+            <label>FRS: </label>
+            <div class = "row">
+              <div class = "col-sm-2">
+              <md-input-container class="md-block">
+                <input class="inpt" ng-model = "frs1"  md-maxlength= "1" max="9" oninput="validity.valid" required id="frs1"></input>
+              </md-input-container>
+             </div>
+            <div class="col-xs-1">
+             -
+            </div>
+            <div class = "col-sm-2">
+            <md-input-container class="md-block">
+              <input class="inpt" ng-model ="frs2" md-maxlength= "5" max="99999" oninput="validity.valid" required id="frs2"></input>
+            </md-input-container>
+           </div>
+
+        </div>
+        <div  class="field">
+          <label> Unofficial Budget: </label>
+          <md-input-container class="md-block">
+            <input class="inpt" type="number" step="0.01" min="0" oninput="validity.valid||(value='');" ng-pattern="/^1234$/" required id="budget"></input>
+          </md-input-container>
+          <div ng-message="required"></div>
+        </div>
+      </div>
+
+      <div class="list-table">
+        <div align="center">
+          <h3 class="head">Co-Investigators To Add</h3>
+        </div>
+        <div class="border-table container">
+          <div class="field container line" ng-repeat="researcher in researchers">
+            <div class="col-sm-10">
+              <h3>{{researcher.first_name}} {{researcher.last_name}}</h3>
+            </div>
+            <div class="col-sm-2">
+              <md-button class="md-raised right" ng-click="addresearcher(researcher.researcher_id)" ng-show="show(researcher.researcher_id)">Select</md-button>
+              <md-button class="md-raised right" ng-click="deleteresearcher(researcher.researcher_id)" ng-hide="show(researcher.researcher_id)">Deselect</md-button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <label>Would you like to be alerted when Co-Investigators make a purchase report?</label><br>
+          <input type="radio" name="decision" value="yes" ng-click="decision(1)" required>Yes</input><br>
+          <input type="radio" name="decision" value="no" ng-click="decision(0)">No</input>
+      </div>
+
+      <div class="container" align="center">
+        <md-button type="submit" class="md-raised create">Create</md-button>
+      </div>
+    </form>
+    </md-content>
+  </div>
+
+</body>

@@ -1,0 +1,304 @@
+.space {
+  margin: 0 200px;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+hr{
+  border-color: black;
+  clear: both;
+}
+
+.container{
+  width: 100%;
+}
+
+.justBox{
+  border:1px solid darkgray;
+  padding:10px;
+}
+
+.md-button.md-raised.escsup{
+  height: 40px;
+  width: 550px;
+  background-color: blue;
+  color: white;
+  border-radius: 0;
+}
+
+.md-button.md-raised.cnfrm{
+  height: 40px;
+  width: 264px;
+  background-color: green;
+  color: white;
+  border-radius: 0;
+}
+
+.md-button.md-raised.dny{
+  height: 40px;
+  width: 264px;
+  background-color: red;
+  color: white;
+  border-radius: 0;
+}
+
+.md-button.md-raised.lebutton{
+  padding: 0;
+  margin: 0;
+  height: 55px;
+  float: right;
+  background-color: blue;
+  color: white;
+  border-radius: 0;
+  font-size: 15px;
+}
+
+.codehex{
+  float: right;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+.md-button.md-raised.escsup:hover{
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.cnfrm:hover{
+  background-color: darkgreen;
+  color: white;
+}
+
+.md-button.md-raised.dny:hover{
+  background-color: darkred;
+  color: white;
+}
+
+.md-button.md-raised.lebutton:hover{
+  background-color: darkblue;
+  color: white;
+}
+
+h6{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+h1{
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h2{
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, table {
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+th, td {
+  text-align: center;
+  font-size: 20px;
+}
+
+h3, h4, h5, h6  {
+  font-size: 20px;
+}
+
+.textarea:hover {
+  border-color: blue;
+  box-shadow: 0 0 10px blue;
+}
+
+.textarea:focus {
+  border-color: darkblue;
+  box-shadow: 0 0 10px darkblue;
+}
+
+.md-button.md-raised.escsup:focus{
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.cnfrm:focus{
+  background-color: darkgreen;
+  color: white;
+}
+
+.md-button.md-raised.dny:focus{
+  background-color: darkred;
+  color: white;
+}
+
+.md-button.md-raised.lebutton:focus{
+  background-color: darkblue;
+  color: white;
+}
+
+.pddng {
+  margin: 0 15px;
+}
+
+input.inpt:hover{
+  border-color: blue;
+  box-shadow: 0 0 20px blue;
+}
+
+input.inpt:focus{
+  border-color: darkblue;
+  box-shadow: 0 0 10px darkblue;
+}
+
+.md-button.md-raised.edit{
+  background-color: blue;
+  color: white;
+}
+
+.md-button.md-raised.edit:hover{
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.edit:focus{
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.delete{
+  background-color: red;
+  color: white;
+}
+
+.md-button.md-raised.delete:hover{
+  background-color: darkred;
+  color: white;
+}
+
+.md-button.md-raised.delete:focus{
+  background-color: darkred;
+  color: white;
+}
+
+.navMargin {
+  margin: 0 196px;
+  padding: 0;
+  margin-right: 216px;
+}
+
+.md-list-item-text {
+  font-size: 20px;
+  color: black;
+}
+
+li:hover {
+  background-color: white;
+  color: white;
+}
+
+li {
+  color: white;
+}
+
+.container {
+  width: 100%;
+}
+
+.md-button.md-raised.edit:disabled {
+  background-color: gray;
+  color: white;
+}
+
+.md-button.md-raised.delete:disabled {
+  background-color: gray;
+  color: white;
+}
+
+.navbar-default {
+  background-color: black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.navStyle {
+  background-color: black;
+}
+
+ul.nav.navbar-nav a{
+  color: white;
+  background-color: black;
+}
+
+ul.nav.navbar-nav li  {
+  cursor: pointer;
+}
+
+div.dropdown-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+.glyphicon-envelope {
+  color: inherit;
+  font-size: 20px;
+}
+
+.glyphicon-envelope:hover {
+  color: black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    font-size: inherit;
+    background-color: inherit;
+    color: solid black;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: gray;
+}

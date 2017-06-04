@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+}
+
+.notifications {
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.notifications:hover {
+  background-color: lightgrey;
+}
+
+.md-button.md-raised.end {
+  background-color: white;
+  color: black;
+}
+
+.md-button.md-raised.end:hover{
+  background-color: black;
+  color: white;
+}
+
+.md-button.md-raised.end:focus {
+  background-color: black;
+  color: white;
+}
+
+.md-button.md-raised.seeAll {
+  background-color: blue;
+  color: white;
+}
+
+.md-button.md-raised.seeAll:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.seeAll:focus {
+  background-color: darkblue;
+  color: white;
+}
+
+.md-dialog-container{
+  width: 75%;
+  left: 300px;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}

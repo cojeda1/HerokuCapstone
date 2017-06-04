@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="..\css\notifications.css">
+
+
+<div class="bore" ng-app="homeApp" ng-controller="notifCtrl">
+  <div class="md-dialog-container">
+    <md-dialog flex>
+      <md-content class="md-padding">
+        <div>
+          <div class="container">
+            <div class="notifications" align="center" ng-repeat="notif in notification">
+                <label>{{notif.notification_body}}</label>
+            </div>
+            <div class="container row" align="center">
+              <md-button class="md-raised seeAll" ng-click="notifs()">See All Notifications</md-button>
+              <md-button class="md-raised end" ng-click="close()">CLOSE</md-button>
+            </div>
+          </div>
+        </div>
+      </md-content>
+    </md-dialog>
+  </div>

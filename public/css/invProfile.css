@@ -1,0 +1,139 @@
+.space {
+  margin: 0 200px;
+}
+
+.navMargin {
+  margin: 0 196px;
+  padding: 0;
+  margin-right: 216px;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.modalHead {
+  border-top: 1px solid black;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.field {
+  padding: 20px 0;
+  font-family: "Arial Black", sans-serif;
+  font-size: 20px;
+}
+
+.right {
+  float: right;
+  margin-right: 400px;
+}
+
+.md-button.md-raised.edit {
+  background-color: blue;
+  color: white;
+  width: 275px;
+  height: 40px;
+}
+
+.md-button.md-raised.edit:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.edit:focus {
+  background-color: darkblue;
+  color: white;
+}
+
+div {
+  color: black;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+.container {
+  width: 100%;
+}
+
+.md-button.md-raised.confirm {
+  background-color: blue;
+  color: white;
+}
+
+.md-button.md-raised.confirm:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.confirm:focus {
+  background-color: darkblue;
+  color: white;
+}
+
+.md-button.md-raised.cancel {
+  background-color: red;
+  color: white;
+}
+
+.md-button.md-raised.cancel:hover {
+  background-color: darkred;
+  color: white;
+}
+
+.md-button.md-raised.cancel:focus {
+  background-color: darkred;
+  color: white;
+}
+
+input.inpt:hover {
+  border-color: blue;
+  box-shadow: 0 0 10px blue;
+}
+
+input.inpt:focus {
+  border-color: darkblue;
+  box-shadow: 0 0 10px darkblue;
+}
+
+.navbar-default {
+  background-color: black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.navStyle {
+  background-color: black;
+}
+
+ul.nav.navbar-nav a{
+  color: white;
+}
+
+ul.nav.navbar-nav li  {
+  cursor: pointer;
+}
+
+.glyphicon-envelope {
+  color: inherit;
+  font-size: 20px;
+}
+
+.glyphicon-envelope:hover {
+  color: black;
+}
+
+.warning {
+  color: red;
+}

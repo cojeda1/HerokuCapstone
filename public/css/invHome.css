@@ -1,0 +1,160 @@
+.space {
+  margin: 0 200px;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+.navMargin {
+  margin: 0 196px;
+  padding: 0;
+  margin-right: 216px;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  float: right;
+  margin-right: 27px;
+}
+
+.heed {
+  border-bottom: 1px solid black;
+  font-size: 35px;
+  font-family: Arial, sans-serif;
+}
+
+.container{
+  width: 100%;
+}
+
+div {
+  font-family: Arial, sans-serif;
+}
+
+.md-button.md-raised.investigator{
+  color: black;
+  background-color: white;
+  width: 275px;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.md-button.md-raised.investigator:hover {
+  color: black;
+  background-color: lightgrey;
+}
+
+.md-button.md-raised.add{
+  background-color: blue;
+  color: white;
+  width: 50%;
+  border-radius: 0;
+}
+
+.md-button.md-raised.add:hover {
+  background-color: darkblue;
+}
+
+th {
+  text-align: center;
+}
+
+.glyphicon {
+  font-size: 35px;
+  color: black;
+}
+
+.glyphicon:hover {
+  color: blue;
+}
+
+table {
+  font-size: 20px;
+}
+
+.top {
+  padding-top: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.md-button.md-raised.option{
+  border-radius: 0;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar-default {
+  background-color: black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.navStyle {
+  background-color: black;
+}
+
+ul.nav.navbar-nav a{
+  color: white;
+}
+
+ul.nav.navbar-nav li  {
+  cursor: pointer;
+}
+
+.glyphicon-envelope {
+  color: inherit;
+  font-size: 20px;
+}
+
+.glyphicon-envelope:hover {
+  color: black;
+}
+
+input.search:hover {
+  border-color: blue;
+  box-shadow: 0 0 10px blue;
+}
+
+input.search:focus {
+  border-color: darkblue;
+  box-shadow: 0 0 10px darkblue;
+}

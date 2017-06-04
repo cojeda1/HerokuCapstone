@@ -1,1 +1,1 @@
-# HerokuCapstone
+# Capstone Project

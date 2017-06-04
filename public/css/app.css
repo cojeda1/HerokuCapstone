@@ -1,0 +1,78 @@
+.navBar md-content {
+  padding:50px;
+  margin:20px;
+  background-color: #FFF2E0;
+}
+.space{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navbar {
+  margin-left: 2px;
+}
+
+h1{
+    text-underline: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    heigth:100px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+th td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+table, th, td{
+    border: 1px solid black;
+}
+hr{
+   border-color: black;
+}
+
+.navbar-default {
+  background-color: black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.navStyle {
+  background-color: black;
+}
+
+ul.nav.navbar-nav a{
+  color: white;
+  background-color: black;
+}
+
+ul.nav.navbar-nav li  {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: white;
+  color: black;
+}
+
+ul.nav.navbar-nav button{
+  color: white;
+  background-color: black;
+}
+
+ul.nav.navbar-nav button:hover{
+  color: black;
+  background-color: white;
+}
+
+div.dropdown-content a:hover {
+  background-color: white;
+  color: black;
+}
