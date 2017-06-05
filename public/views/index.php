@@ -39,17 +39,17 @@
         </div>
     </div>
 </main>
-<script src="../../node_modules/angular/angular.js"></script>
+<script src="..\node_modules\angular\angular.js"></script>
 <script src="..\app\app.js"></script>
-<script src="..\app\node_modules\angular-material\angular-material.js"></script>
-<script src="..\app\node_modules\angular-route\angular-route.js"></script>
-<script src="..\app\node_modules\angular-utils-pagination\dirPagination.js"></script>
-<script src="..\app\node_modules\angular-aria\angular-aria.js"></script>
-<script src="..\app\node_modules\angular-animate\angular-animate.js"></script>
-<script src="..\app\node_modules\angular-ui-router\release\angular-ui-router.js"></script>
-<script src="..\app\node_modules\angular-file-upload\dist\angular-file-upload.js"></script>
-<script src="..\app\node_modules\ng-file-upload\dist\ng-file-upload.js"></script>
-<script src="..\app\node_modules\ng-file-upload\dist\ng-file-upload-shim.min.js"></script>
+<script src="..\node_modules\angular-material\angular-material.js"></script>
+<script src="..\node_modules\angular-route\angular-route.js"></script>
+<script src="..\node_modules\angular-utils-pagination\dirPagination.js"></script>
+<script src="..\node_modules\angular-aria\angular-aria.js"></script>
+<script src="..\node_modules\angular-animate\angular-animate.js"></script>
+<script src="..\node_modules\angular-ui-router\release\angular-ui-router.js"></script>
+<script src="..\node_modules\angular-file-upload\dist\angular-file-upload.js"></script>
+<script src="..\node_modules\ng-file-upload\dist\ng-file-upload.js"></script>
+<script src="..\node_modules\ng-file-upload\dist\ng-file-upload-shim.min.js"></script>
 <script src ="js\admin\mainAdminController.js"></script>
 <script src = "js\investigator\mainInvCntrl.js"></script>
 <script src ="js\mainAccCntrl.js"></script>
