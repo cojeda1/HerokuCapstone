@@ -52,7 +52,7 @@ $scope.choosen = "accountant";
      console.log("role" + credentials.role);
      $http({
        method: "POST",
-       url: "http://localhost:8000/login",
+       url: "https://localhost:8000/login",
        data: credentials,
      }).then(function mySuccess(response){
        console.log(response.data);
