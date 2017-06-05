@@ -30,7 +30,7 @@
                         <div class = "dropdown-content">
                           <a ng-click="changeChoosen('administrator')">administrator</a>
                           <a ng-click= "changeChoosen('accountant')" >accountant</a>
-                          <a ng-click="changeChoosen('researc111her')">researcher</a>
+                          <a ng-click="changeChoosen('researcher')">researcher111</a>
                         </div>
                     </div>
                 </div>
