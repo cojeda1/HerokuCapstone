@@ -5,7 +5,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="..\..\node_modules\angular-material\angular-material.min.css">
-  <link rel="stylesheet" href="css\login.css">
+  <link rel="stylesheet" href="public\css\login.css">
   <title>CID.amex_report</title>
 </head>
 <main ui-view>
@@ -30,7 +30,7 @@
                         <div class = "dropdown-content">
                           <a ng-click="changeChoosen('administrator')">administrator</a>
                           <a ng-click= "changeChoosen('accountant')" >accountant</a>
-                          <a ng-click="changeChoosen('researcher')">researcher</a>
+                          <a ng-click="changeChoosen('researc111her')">researcher</a>
                         </div>
                     </div>
                 </div>
