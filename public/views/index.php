@@ -30,7 +30,7 @@
                         <div class = "dropdown-content">
                           <a ng-click="changeChoosen('administrator')">administrator</a>
                           <a ng-click= "changeChoosen('accountant')" >accountant</a>
-                          <a ng-click="changeChoosen('researcher')">researcher111</a>
+                          <a ng-click="changeChoosen('researcher')">researcher</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
 <script src="..\app\app.js"></script>
 <script src="..\..\node_modules\angular-material\angular-material.js"></script>
 <script src="..\..\node_modules\angular-route\angular-route.js"></script>
-<script src="..\..\node_modules\angular-utils-pagination\dirPagination.js"></script>
+<script src="\node_modules\angular-utils-pagination\dirPagination.js"></script>
 <script src="..\..\node_modules\angular-aria\angular-aria.js"></script>
 <script src="..\..\node_modules\angular-animate\angular-animate.js"></script>
 <script src="..\..\node_modules\angular-ui-router\release\angular-ui-router.js"></script>
