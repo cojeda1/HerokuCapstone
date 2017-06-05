@@ -39,7 +39,7 @@
         </div>
     </div>
 </main>
-<script src="..\..\..\node_modules\angular\angular.js"></script>
+<script src="\node_modules\angular\angular.js"></script>
 <script src="..\app\app.js"></script>
 <script src="..\..\node_modules\angular-material\angular-material.js"></script>
 <script src="..\..\node_modules\angular-route\angular-route.js"></script>
