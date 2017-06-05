@@ -5,7 +5,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="..\..\node_modules\angular-material\angular-material.min.css">
-  <link rel="stylesheet" href="/app/public/css/login.css">
+  <link rel="stylesheet" href="../css/login.css">
   <title>CID.amex_report</title>
 </head>
 <main ui-view>
