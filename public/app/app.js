@@ -19,17 +19,17 @@ myapp.config(function($stateProvider){
   });
 $stateProvider.state('INVHome', {
   url:'/invHome',
-  templateUrl: 'invView/invHome.php',                  //View Home
+  templateUrl: 'views/invView/invHome.php',                  //View Home
   controller:'homeCtrl'
 });
 $stateProvider.state('ACCHome',{
   url:'/accHome',
-  templateUrl: 'accountantView/homeview.php',
+  templateUrl: 'views/accountantView/homeview.php',
   controller:'myCtrl'
 });
 $stateProvider.state('ADMNHome',{
   url:'/adminHome',
-  templateUrl: 'adminView/admnHome.php',
+  templateUrl: 'views/adminView/admnHome.php',
   controller:'admnhomeCtrl'
 });
 
