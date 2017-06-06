@@ -12,9 +12,7 @@
 
 use Illuminate\Http\Request;
 use Tymon\JWTAuth\JWTAuth;
-$app->post('/login', function () use ($app) {
-    return "test";
-});
+$app->post('/login','Login@login');
 
 $app->get('/', function () use ($app) {
     return view('index');
