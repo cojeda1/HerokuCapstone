@@ -12,10 +12,12 @@
 
 use Illuminate\Http\Request;
 use Tymon\JWTAuth\JWTAuth;
-$app->post('/login','Login@login');
+$app->post('/login', function () use ($app) {
+    return view('index');
+});
 
 $app->get('/', function () use ($app) {
-    return view('index');
+    return "test";
 });
 $app->group(['middleware' => 'auth'], function () use ($app) {
     $app->group(['middleware'=>'cors'], function($app) {
