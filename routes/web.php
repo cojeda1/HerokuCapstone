@@ -15,7 +15,7 @@ use Tymon\JWTAuth\JWTAuth;
 $app->post('/login','Login@login');
 
 $app->get('/', function () use ($app) {
-    return echo test;
+    return view('index');
 });
 $app->group(['middleware' => 'auth'], function () use ($app) {
     $app->group(['middleware'=>'cors'], function($app) {
